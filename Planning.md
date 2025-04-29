@@ -26,10 +26,3 @@ This can use a with clause and a separate function that looks into the existence
 Need to add as many of these as time allows after creating the main heap type with its proofs. The inclusion of proofs into the heap type should ensure that an operation has made a valid heap
 
 Each operations can come with its own proof that it does what it says it should correctly. 
-
-### Insert
-```agda
-insert : {A : Set} → Heap A
-```
-
-### How It Gets Implemented In Haskell
